@@ -1,0 +1,116 @@
+.main_section{
+    margin-bottom: 0;
+}
+.textarea_box{
+    width: 100%;
+    height: 544px;
+    border: 1px #e1e1e1 solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.textarea_box textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+#cke_board_content,
+.cke_inner.cke_reset,
+.cke_contents{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5!important;
+}
+#cke_1_contents{
+    height: 496px!important;
+    background: #F5F5F5!important;
+    background-color: #F5F5F5!important;
+}
+.cke_top{
+    padding: 11px 8px 10px 8px!important;
+}
+
+#cke_17,
+#cke_29,
+#cke_33,
+#cke_34,
+#cke_35,
+#cke_39,
+#cke_40,
+#cke_41,
+#cke_43,
+#cke_44,
+#cke_45,
+#cke_46,
+#cke_47,
+#cke_48,
+#cke_49{
+    display: none;
+}
+
+#cke_28,
+#cke_32,
+#cke_38{
+    border-right: 1px #e1e1e1 solid;
+}
+.cke_toolbox{
+    display: flex;
+}
+
+
+a.cke_combo_button,
+.cke_toolbar_separator{
+    display: none;
+}
+
+#cke_1_bottom{
+    display: none;
+}
+body.cke_editable{
+    background: #F5F5F5!important;
+    background-color: #F5F5F5!important;
+}
+
+*{
+    width: initial;
+    height: initial;
+    font-family: initial;
+    margin: initial;
+    padding: initial;
+}
+
+.input_box{
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    padding-bottom: 9px;
+    border: none;
+    border-bottom: 1px #101010 solid;
+    border-radius: 0;
+    margin: 0 0 10px 0;
+}
+.input_box input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn_flex{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+.btn_flex button{
+    width: 160px;
+    height: 40px;
+    background-color: #0C2149;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}

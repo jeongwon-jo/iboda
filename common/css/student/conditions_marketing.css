@@ -1,0 +1,49 @@
+.main {
+    width: calc(100% - 32px);
+    margin: 40px auto 0 auto;
+}
+h1 {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 auto 10px auto;
+}
+.h1_p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 6px;
+}
+.main>div {
+    margin-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #0C2149;
+}
+.main>div:last-child {
+    border-bottom: none;
+}
+.main div h2 {
+    font-size: 16px;
+}
+.main div p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 4px;
+}
+.main div p span {
+    font-weight: 600;
+}
+
+.popup_box_inner .main{
+    width: 100%;
+    margin-top: 0!important;
+}
+
+.popup_box_inner .main{
+    width: 100%;
+}
+.popup_box_inner .main div h2{
+    margin-bottom: 10px;
+}

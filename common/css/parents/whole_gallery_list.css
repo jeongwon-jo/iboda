@@ -1,0 +1,118 @@
+.main_section{
+    min-height: calc(100vh - 128px);
+    margin-top: 88px;
+}
+
+.nav_tab_top a:first-child p{
+    margin-left: auto;
+}
+.nav_tab_top a:last-child p{
+    margin-right: auto;
+}
+
+.gallery_list_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 40px auto;
+}
+.gallery_list_row{
+    width: 43.3333vw;
+    height: auto;
+    margin: 20px auto 0 0;
+}
+.gallery_list_whole .gallery_list_row:nth-child(2n){
+    margin-right: 0;
+}
+.gallery_list_whole .gallery_list_row:nth-child(1),
+.gallery_list_whole .gallery_list_row:nth-child(2){
+    margin-top: 15px;
+}
+.gallery_img_box{
+    position: relative;
+    width: 100%;
+    height: 43.3333vw;
+    background: url('/common/images/parents/icon/gallery_frame_wh2.svg') no-repeat;
+    background-size: contain;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16);
+}
+.gallery_img_box img{
+    position: absolute;
+    width: 33.3333vw;
+    height: 33.3333vw;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p.work_title{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 10px 0 2px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+p.work_stud{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: #999999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tab_menu_nav{
+    width: 100%;
+    height: auto;
+    margin: 15px 0 0 0;
+}
+.tab_menu_nav button{
+    width: 80px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px #CACACA solid;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999999;
+}
+.tab_menu_nav button:nth-child(1){
+    margin-right: 10px;
+}
+button.bnt_nav_on{
+    border: none;
+    background-color: #0C2149;
+    color: #FFDF1A;
+}
+
+#nav_section2{
+    display: none;
+}
+.notice_gallery_row{
+    position: relative;
+    width: 100%;
+    height: 33.3333vw;
+    background-size: contain;
+    margin: 20px auto 0 auto;
+}
+.gallery_list_whole .notice_gallery_row:first-child{
+    margin-top: 25px;
+}
+.notice_gallery_row img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav_tab_flex a{
+    width: 100%;
+}
+.nav_tab_flex a p{
+    margin: 0 auto;
+}

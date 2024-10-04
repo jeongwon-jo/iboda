@@ -1,0 +1,90 @@
+.main {
+    width: calc(100% - 32px);
+    margin: 40px auto 0 auto;
+}
+h1 {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 auto 10px auto;
+}
+.h1_p {
+    width: calc(100% - 32px);
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #0C2149;
+    padding: 16px;
+    background: #efefef;
+    border-radius: 5px;
+    margin: 0 auto 30px auto;
+}
+.main>div {
+    padding-bottom: 60px;
+}
+.main>div:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.main div h2 {
+    width: calc(100% - 32px);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFE150;
+    background-color: #0C2149;
+    padding: 8px 16px;
+    margin: 0 0 32px 0;
+}
+.main div h3{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #0C2149;
+}
+.main div p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #191919;
+    margin-top: 10px;
+}
+.main div p span {
+    display: block;
+    font-weight: bold;
+    color: #0C2149;
+    margin-bottom: 10px;
+}
+.common_inner{
+    margin-bottom: 30px;
+}
+.title_common .common_inner:last-child{
+    margin-bottom: 0;
+}
+.main ul{
+    width: calc(100% - 10px);
+    margin: 0 0 0 auto;
+}
+.main ul li{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #191919;
+    margin-top: 5px;
+}
+.main ul li ul{
+    width: calc(100% - 10px);
+    margin: 0 0 0 auto;
+}
+
+.popup_box_inner .main{
+    width: 100%;
+    margin-top: 20px;
+}
+.popup_box_inner .main div h2{
+    margin-bottom: 10px;
+}

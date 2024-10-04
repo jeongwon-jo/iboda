@@ -1,0 +1,135 @@
+.main_section{
+    position: relative;
+}
+
+/*타입 변경 버튼*/
+.notice_nav_top{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+    padding: 4px 0 20px 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.notice_type{
+    display: block;
+    min-width: 78px;
+    width: 78px;
+    height: 30px;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.notice_type p{
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #999999;
+    text-align: center;
+    cursor: pointer;
+}
+.notice_type.notice_type1{
+    margin-right: 10px;
+}
+.notice_type.notice_on{
+    border: none;
+    background-color: #0C2149;
+}
+.notice_type.notice_on p{
+    color: #FFDF1A;
+}
+
+/*공지*/
+.notice_list_row{
+    width: calc(100% - 32px);
+    height: auto;
+    padding: 16px 16px 15px 16px;
+    border-radius: 10px;
+    margin: 0 auto 12px auto;
+    cursor: pointer;
+}
+.notice_list_row p.notice_title{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.notice_section .notice_list_row:last-child{
+    margin-bottom: 0;
+}
+
+/*일반*/
+.notice_list_row2{
+    width: calc(100% - 32px);
+    height: auto;
+    padding: 16px 16px 10px 16px;
+    border-radius: 10px;
+    margin: 0 auto 12px auto;
+    cursor: pointer;
+}
+.notice_list_row2 *{
+    cursor: pointer;
+}
+.notice_list_row2 p.notice_title{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0 auto 10px auto;
+}
+.notice_list_row2 p.notice_content{
+    width: 100%;
+    min-height: 34px;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #999999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 auto 10px auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.notice_img{
+    position: relative;
+    width: 100%;
+    max-width: 668px;
+    height: 57.2222vw;
+    max-height: 464px;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.notice_img img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p.notice_deta{
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #101010;
+}
+
+.no_data_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

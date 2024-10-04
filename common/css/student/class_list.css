@@ -1,0 +1,194 @@
+.class_top{
+    width: 100%;
+    height: auto;
+    padding: 10px 0 12px 0;
+    border-bottom: 1px solid #CACACA;
+    margin: 0 auto 12px auto;
+}
+.class_top .display_flex{
+    width: 100%;
+    height: auto;
+}
+.class_top .display_flex p:first-child{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+}
+.class_top .display_flex p:last-child{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #0C2149;
+}
+
+/*수업 리스트*/
+.class_enter_whole{
+    width: 100%;
+    height: auto;
+}
+.class_enter{
+    width: calc(100% - 28px);
+    height: auto;
+    padding: 14px 14px 20px 14px;
+    border-radius: 5px;
+    margin: 0 auto 20px auto;
+}
+.class_flex{
+    width: 100%;
+    height: auto;
+}
+.class_img{
+    position: relative;
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.class_img img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.class_txt{
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 6px;
+}
+p.class_day{
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 auto 8px auto;
+}
+p.class_name{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 auto 8px auto;
+}
+p.class_teacher{
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #737373;
+    margin: 0 auto 6px auto;
+    text-decoration: underline;
+}
+p.class_date{
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #737373;
+    margin: 0 auto;
+}
+/*그래프*/
+.graph_flex{
+    width: 100%;
+    height: auto;
+    margin: 12px auto 16px auto;
+}
+.progressbar{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #000;
+    border-radius: 5px;
+    z-index: -1;
+    overflow: hidden;
+}
+.progressbar .fill{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6px;
+    background: #ffe150;
+    border-radius: 5px;
+}
+.graph_flex .display_flex{
+    width: max-content;
+    height: auto;
+    margin: 0 0 0 22px;
+}
+.graph_flex .display_flex p{
+    min-width: max-content;
+    width: max-content;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #101010;
+    margin: 0;
+}
+.graph_flex .display_flex p:nth-child(1){
+    font-weight: bold;
+}
+.graph_flex .display_flex p:nth-child(2){
+    margin: 0 2px;
+}
+.class_enter_btn{
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #0A2454;
+    margin: 0 auto;
+}
+
+/*데이터 없을 때*/
+.no_data_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.no_data_box img{
+    width: 76px;
+}
+.go_home_a{
+    position: absolute;
+    display: block;
+    min-width: 220px;
+    width: 220px;
+    max-width: 220px;
+    height: 40px;
+    background-color: #0A2454;
+    margin: 0 auto;
+    border-radius: 20px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.go_home_a p{
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (max-height: 399px) {
+    .no_data_box{
+        position: unset;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+    .go_home_a{
+        position: unset;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin-top: 40px;
+    }
+}

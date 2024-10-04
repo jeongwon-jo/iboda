@@ -1,0 +1,420 @@
+.main_section{
+    margin-bottom: 18px;
+}
+.class_title_row{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px #CACACA solid;
+    margin: 0 auto;
+}
+.class_title_row img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.class_title_row p{
+    font-size: 18px;
+    line-height: 22.5px;
+    font-weight: bold;
+}
+.class_content_whole{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+.class_content_whole p{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.class_content_box{
+    padding: 12px 16px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+}
+.class_content_box .display_flex{
+    width: 100%;
+    height: auto;
+}
+.class_content_box .display_flex .class_teacher_img{
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16);
+}
+.class_content_box .display_flex .class_teacher_img img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.class_teacher_info p{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.class_teacher_info p:nth-child(2){
+    margin: 12px 0;
+}
+.class_teacher_info .display_flex p{
+    margin: 0;
+}
+.class_teacher_info .display_flex p:first-child{
+    margin: 0 7px 0 0;
+}
+
+.teacher_info_whole{
+    width: 100%;
+    height: auto;
+    margin: 21px auto 0 auto;
+}
+.teacher_info_whole p{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+}
+.teacher_info_row_whole{
+    width: 100%;
+    height: auto;
+}
+.teacher_info_row{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+.teacher_info_row p{
+    margin: 1px 0 0 0;
+}
+.info_dot_box{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px 0 0;
+}
+.info_dot_box p{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #0C2149;
+    border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+p.detail_ling10{
+    position: relative;
+    width: 100vw;
+    height: 10px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.message_info_aside{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+.message_info_title{
+    width: 100%;
+    height: auto;
+    margin: 0 0 15px 0;
+}
+.message_info_title p:last-child{
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #EB5757;
+    border-radius: 9px;
+    text-align: center;
+    margin-left: 5px;
+}
+.message_info_title p:first-child{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0;
+}
+.message_info_row_whole{
+    width: 100%;
+    height: auto;
+}
+.message_info_row{
+    padding: 12px 12px 5px 12px;
+    border-radius: 10px;
+    margin: 0 auto 8px auto;
+    cursor: pointer;
+}
+.message_info_row *{
+    cursor: pointer;
+}
+.message_info_row_whole .message_info_row:last-child{
+    margin-bottom: 15px;
+}
+.message_info_row p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.message_info_row .display_flex{
+    width: 100%;
+    height: auto;
+    margin: 5px auto 0 auto;
+}
+.message_info_row .display_flex img{
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.message_info_row .display_flex p{
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: bold;
+}
+
+.message_btn_flex_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.message_btn_flex_whole a{
+    width: 100%;
+    height: 32px;
+}
+.message_btn_flex_whole a button{
+    width: 100%;
+    height: 32px;
+    border-radius: 20px;
+    font-size: 13px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.message_btn_flex_whole a:first-child{
+    margin-right: 16px;
+}
+.message_btn_flex_whole a:first-child button{
+    border: 1px #0C2149 solid;
+    color: #0C2149;
+    background-color: #fff;
+}
+.message_btn_flex_whole a:last-child button{
+    color: #fff;
+    background-color: #0C2149;
+}
+
+.edu_schedule_aside{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 0 0;
+}
+.edu_schedule_title{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 15px auto;
+}
+.edu_schedule_title p:first-child{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+.edu_schedule_title p:last-child{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.edu_schedule_row_whole{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.swiper-container{
+    overflow: visible;
+}
+.swiper-slide{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.schedule_title_whole{
+    width: 100%;
+    height: 48px;
+    background-color: #0C2149;
+    border-radius: 10px 10px 0 0;
+}
+.schedule_title_whole p{
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.schedule_title_whole p span{
+    color: #fff;
+}
+.schedule_content_box{
+    padding: 12px 12px 15px 12px;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+.schedule_img_box{
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.schedule_img_box img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.schedule_txt_right{
+    width: 100%;
+    height: auto;
+}
+.schedule_txt_right p:first-child{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.schedule_txt_right p:last-child{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #0C2149;
+}
+
+.date_schedule_medium{
+    width: calc(100% - 24px);
+    height: auto;
+    padding: 12px;
+    background-color: #F5F5F5;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+.date_schedule_medium .display_flex{
+    margin-bottom: 10px;
+}
+.date_schedule_medium .display_flex:last-child{
+    margin-bottom: 0;
+}
+.date_schedule_medium .display_flex p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #101010;
+}
+.date_schedule_medium .display_flex p:first-child{
+    min-width: 55px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.date_schedule_medium2{
+    width: calc(100% - 24px);
+    height: auto;
+    padding: 12px;
+    background-color: #E8F6FE;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+}
+.date_schedule_medium2 p{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.date_schedule_medium2 p:first-child{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.date_schedule_medium3{
+    width: 100%;
+    height: auto;
+}
+.date_schedule_medium3 .display_flex p{
+    min-width: max-content;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #101010;
+    margin: 4px 10px 0 0;
+}
+.date_schedule_medium3 .display_flex .display_flex p{
+    border: 1px #0C2149 solid;
+    padding: 2px 7px;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 0 5px 5px 0;
+}
+
+.btn_whole{
+    position: absolute;
+    width: 112px;
+    height: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn_whole .swiper-button-prev{
+    position: unset;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background: url('/common/images/parents/icon/arrow_icon_prev_wh.svg') no-repeat;
+    cursor: pointer;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    margin: 0;
+}
+.btn_whole .swiper-button-next{
+    position: unset;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background: url('/common/images/parents/icon/arrow_icon_next_wh.svg') no-repeat;
+    cursor: pointer;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    margin: 0;
+}
+
+p.already_read{
+    font-size: 14px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #999;
+    text-align: center;
+}

@@ -1,0 +1,114 @@
+.child_row_whole{
+    width: 100%;
+    height: auto;
+    padding: 0 0 20px 0;
+}
+.child_row_box{
+    padding: 12px;
+    background-color: #0C2149;
+    border-radius: 10px;
+    margin: 10px auto 0 auto;
+}
+.child_row_box p{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.child_row_flex p{
+    font-weight: bold;
+}
+.child_row_flex p:last-child{
+    color: #999999;
+    margin: 0 0 0 5px;
+}
+.child_row_flex p:last-child span{
+    color: #999999;
+}
+p.child_mail_p{
+    margin: 10px 0;
+}
+.child_row_flex2{
+    width: 100%;
+    height: auto;
+}
+.child_row_flex2 img{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 5px;
+}
+.class_list_row{
+    margin: 3px 10px 3px 0;
+}
+.class_list_whole .class_list_row:last-child{
+    margin-right: 0;
+}
+.class_list_row p{
+    color: #fff;
+}
+p.line_wh{
+    width: 1px;
+    height: 10px;
+    background-color: #CACACA;
+    margin: 0 0 0 10px;
+}
+.class_list_whole .class_list_row:last-child p:last-child{
+    display: none;
+}
+
+p.detail_ling10{
+    position: relative;
+    width: 100vw;
+    height: 10px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.setting_list_whole{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+.setting_list_whole p{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    margin: 0 auto 15px auto;
+}
+.setting_list_row_whole{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.setting_list_row{
+    width: calc(100% - 24px);
+    padding: 12px 0 11px 0;
+    margin: 0 auto;
+    border-bottom: 1px #CACACA solid;
+}
+.setting_list_row a{
+    width: 100%;
+    height: 100%;
+}
+.setting_list_row img{
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+}
+.setting_list_row .setting_list_flex img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+.setting_list_row_whole .setting_list_row:last-child{
+    border-color: #fff;
+}
+.setting_list_flex p{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}

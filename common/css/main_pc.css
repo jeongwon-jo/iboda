@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* main */
+.main_wrapper header{height:100px;background-color:rgba(0, 0, 0, .15);/*transition:background-color .2s;*/border-bottom:1px solid transparent}
+.main_wrapper header h1.logo{width:113px;height:57px;background:url(/common/images/default/pc_logo_wht.png) center bottom no-repeat;background-size:100%;transition:all .2s}
+.main_wrapper header h1.logo a{display:block}
+.main_wrapper header h1.logo a picture{display:block;text-indent:-9999px;overflow:hidden}
+.main_wrapper .pc_gnb_menu>li>a{color:#fff}
+.main_wrapper .pc_util>li.btn_service>a{border:1px solid #fff; color:#fff}
+.main_wrapper .pc_util>li.btn_studio>a{background-color: #fff; border:1px solid #fff;color:#0a2355}
+.main_wrapper .pc_util>li.btn_log>a.login{background:#fff;border:1px solid #fff;color:#0a2355}
+.main_wrapper .pc_util>li.btn_log>.maber_btn{color:#fff}
+.main_wrapper .pc_util>li.btn_log>a.logout{background:url(/common/images/default/pc_icon_logout_wht.png) 100% center no-repeat;color:#fff}
+
+.main_wrapper header.on{background-color:#fff;border-bottom:1px solid #ddd}
+.main_wrapper header.on h1.logo{background:none}
+.main_wrapper header.on h1.logo a picture{text-indent:0;overflow:visible}
+.main_wrapper header.on .pc_gnb_menu>li>a{color:#0a2355}
+.main_wrapper header.on .pc_util>li.btn_service>a{border:1px solid #0a2355;color:#0a2355}
+.main_wrapper header.on .pc_util>li.btn_studio>a{background-color: #0a2355; border:1px solid #0a2355; color:#fff;}
+.main_wrapper header.on .pc_util>li.btn_log>a.login{background:#0a2355;border:1px solid #0a2355;color:#fff}
+.main_wrapper header.on .pc_util>li.btn_log> .maber_btn{color:#0a2355}
+.main_wrapper header.on .pc_util>li.btn_log> a.logout{background:url(/common/images/default/pc_icon_logout.png) 100% center no-repeat;color:#0a2355}
+
+.main_wrapper .main_visual{position:relative}
+.main_wrapper .main_visual .slick-slide > a{display: block;}
+.main_wrapper .main_visual .slick-dots{position:absolute;left:0;right:0;bottom:150px;margin-top:0}
+.main_wrapper .main_visual .slick-dots li{width:10px;height:10px}
+.main_wrapper .main_visual .slick-dots li.slick-active{width:25px}
+.main_wrapper .main_visual .slick-dots.white li{width:10px;height:10px;background:#fff}
+.main_wrapper .main_visual .slick-dots.white li.slick-active{width:25px}
+.main_wrapper .main_visual .slick-dots.white li.sound{width:22px;height:22px;margin-left:7px}
+.main_wrapper .main_visual .slick-dots.white li.sound_on{background:url(/common/images/main/pc_sound_volume.png) 50% 50% no-repeat;background-size:100%}
+.main_wrapper .main_visual .slick-dots.white li.sound_off{background:url(/common/images/main/pc_sound_mute.png) 50% 50% no-repeat;background-size:100%}
+.main_wrapper .main_visual .txt_item{height:55.64vw}
+.main_wrapper .main_visual .txt_item .tit{width: 40vw;height: 11vw;margin-bottom: 2vw;background:url(/common/images/main/pc_txt_item_tit.png) 0 0 no-repeat;background-size:100%}
+.main_wrapper .main_visual .txt_item .tit p{padding-top:3.5vw;padding-left:4vw;}
+.main_wrapper .main_visual .txt_item .tit strong{display:block;padding-left:4vw;font-size: 3.2vw;line-height: 4.5vw;}
+.main_wrapper .main_visual .txt_item p{font-size: 1.32vw;color: #0d0d0d;line-height: 1.5em;}
+.main_wrapper .main_visual .txt_item a{width:15vw;margin-top:7vw;line-height:3.2vw;font-size:1.32vw}
+
+.main_wrapper .main_visual .txt_item .outer{display:table;width:100%;height:100%;margin:0 auto;padding:2vw;box-sizing:border-box}
+.main_wrapper .main_visual .txt_item .box{display:table-cell;height:100%;padding: 11vw 7vw;}
+.main_wrapper .main_visual .txt_item01 .box{background:url(/common/images/main/txt_item01_bg.jpg) 50% no-repeat;background-size:100%}
+.main_wrapper .main_visual .txt_item02 .box{background:url(/common/images/main/txt_item02_bg.jpg) 50% no-repeat;background-size:100%}
+
+.main_wrapper .main_section .wrap{padding:0}
+.main_wrapper .main_section .wrap::after{content:"";display:block;clear:both}
+.main_wrapper .main_section01{padding:80px 0 177px;background:url(/common/images/main/pc_section01_paper.png) center bottom no-repeat;background-size:100%}
+/* .main_wrapper .main_section01 .wrap{padding:0 0 157px;background:url(/common/images/main/pc_texture2.png) right center no-repeat} */
+.main_wrapper .main_section01 .section_tit{padding-top:52px;margin-bottom:40px}
+.main_wrapper .main_section01 .section_tit b{font-size:40px;line-height:67px}
+.main_wrapper .main_section01 .section_tit .bg{display:inline-block;margin-right:10px;background:url(/common/images/main/pc_texture1.png) center bottom no-repeat;background-size:100%;font-size:48px}
+.main_wrapper .main_section01 p{margin-bottom:60px;font-size:18px;line-height:25px}
+.main_wrapper .main_section01 .btn_txt{width:339px;height:68px;line-height:68px}
+.main_wrapper .main_section01 .txt_box{float:left}
+.main_wrapper .main_section01 .s_slide{float:right;width:560px;height:390px;margin:0}
+.main_wrapper .main_section01 .s_slide .slick-arrow{width:55px;height:66px;margin-top:-33px}
+.main_wrapper .main_section01 .s_slide .slick-arrow.slick-prev{background:url(/common/images/main/pc_ico_arrow_prev.png) 50% 50% no-repeat;background-size:100%}
+.main_wrapper .main_section01 .s_slide .slick-arrow.slick-next{background:url(/common/images/main/pc_ico_arrow_next.png) 50% 50% no-repeat;background-size:100%}
+
+.main_wrapper .main_section02{padding:36px 0 100px}
+.main_wrapper .main_section02 .section_tit{margin-bottom:60px}
+.main_wrapper .main_section02 .section_tit span{font-size:16px;line-height:24px; margin-bottom: 5px;}
+.main_wrapper .main_section02 .section_tit b{font-size:24px;line-height:34px}
+.main_wrapper .main_section02 .section_tit b br{display: none;}
+.main_wrapper .main_section02 ul{position:relative; padding:0;box-sizing:border-box}
+.main_wrapper .main_section02 ul li{}
+.main_wrapper .main_section02 ul li:first-child{margin-bottom: -5px;}
+.main_wrapper .main_section02 ul li .tit{}
+.main_wrapper .main_section02 ul li .tit b{font-size:64px;line-height:48px}
+.main_wrapper .main_section02 ul li .tit button{line-height:28px;font-size:18px;text-indent:0}
+.main_wrapper .main_section02 ul li .con{margin-top:0;font-size:18px;line-height:28px}
+.main_wrapper .main_section02 ul li .img{max-width: none; margin-bottom: 15px;}
+.main_wrapper .main_section02 ul li .txt.on{position:relative;}
+.main_wrapper .main_section02 ul li .txt.on:after{content:"";position:absolute;top:9px;left:-110px;width:30px;height:34px;background:url(/common/images/main/icon_A.png) center no-repeat}
+.main_wrapper .main_section02 .section_bg_con{width: 764px; height: 764px; margin-left: -382px; margin-top: -382px;
+    -webkit-animation: rotate-con-center 13s linear infinite both; animation: rotate-con-center 13s linear infinite both;}
+.main_wrapper .main_section02 .section_bg_icon{position: absolute; top: 320px; left: -50px; width: auto;
+    -webkit-animation: rotate-center 13s linear infinite both; animation: rotate-center 13s linear infinite both;}
+
+
+.main_wrapper .main_section03{padding:0 80px}
+.main_wrapper .main_section03 .section_tit{margin-bottom:60px}
+.main_wrapper .main_section03 .section_tit b{font-size:42px;line-height:59px}
+.main_wrapper .main_section03 ul{width:1016px;margin:0 auto}
+.main_wrapper .main_section03 ul li{float:left;width:50%;padding:0 10px;margin-bottom:0;box-sizing:border-box}
+.main_wrapper .main_section03 ul li .img button{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(0,0,0,0.5) url(/common/images/main/playbtn.png) center no-repeat;overflow:hidden;text-indent:-9999px}
+.main_wrapper .main_section03 ul li .img img{display:none}
+.main_wrapper .main_section03 ul li .img video{display:block}
+.main_wrapper .main_section03 ul li p{text-align:left}
+.main_wrapper .main_section03 ul li p{margin-top:20px;font-size:18px;line-height:25px}
+.main_wrapper .main_section03 ul li p.tit{margin-top:10px;font-weight:400;color:#595959}
+
+.main_wrapper .main_section04{padding-top:150px;background:url(/common/images/main/pc_section04_paper.png) center top no-repeat;background-size:100%}
+.main_wrapper .main_section04 .wrap{width:100%;padding-bottom:80px}
+.main_wrapper .main_section04 .section_tit{margin-bottom:60px}
+.main_wrapper .main_section04 .section_tit span{margin-bottom:10px;font-size:24px;line-height:34px}
+.main_wrapper .main_section04 .section_tit b{font-size:42px;line-height:59px}
+.main_wrapper .main_section04 ul{width:1200px;margin:0 auto;overflow:hidden}
+.main_wrapper .main_section04 ul li{float:left;width:347px;padding-bottom:0;margin-right:60px}
+.main_wrapper .main_section04 ul li:last-child{width:386px;margin-right:0}
+.main_wrapper .main_section04 ul li .name{font-size:13px}
+.main_wrapper .main_section04 ul li .tit{margin-top:10px;font-size:18px;line-height:25px}
+.main_wrapper .main_section04 ul li .con{max-height:66px;margin:20px 0 40px;font-size:16px;line-height:22px}
+.main_wrapper .main_section04 ul li button{padding-right:30px;background:url(/common/images/main/more_btn.png) right center no-repeat;font-size:16px;line-height:23px}
+
+.main_wrapper .main_section05{padding:50px 0}
+.main_wrapper .main_section05 .wrap{width:1016px}
+.main_wrapper .main_section05 .txt_info{background:url(/common/images/main/pc_main_section05_bg.png) right center no-repeat}
+.main_wrapper .main_section05 .txt_info p{margin-bottom:10px;font-size:20px;line-height:28px}
+.main_wrapper .main_section05 .txt_info .section_tit{margin-bottom:20px;font-size:34px;line-height:47px}
+.main_wrapper .main_section05 .btn_txt{width:235px;height:50px;line-height:50px}
+
+.main_wrapper .main_section06{padding:80px 0 60px}
+.main_wrapper .main_section06 .wrap{width:1200px}
+.main_wrapper .main_section06 p{margin-bottom:0;font-size:16px;line-height:22px}
+.main_wrapper .main_section06 .txt_info{float:left;width:590px}
+.main_wrapper .main_section06 .section_tit{margin-top:27px;margin-bottom:30px;font-size:34px;line-height:47px}
+.main_wrapper .main_section06 .partner_logo{float:right;width:610px}
+.main_wrapper .main_section06 .partner_logo li{float:left;width:285px;margin-right:20px;padding:10px;margin-bottom:20px}
+.main_wrapper .main_section06 .partner_logo li:nth-child(2n){margin-left:0;margin-right:0}
+
+.main_popup.layer_box .layer_outer{width:auto;padding:0}
+.main_popup.layer_box .layer_outer .layer_inner .layer_con .js_close{background:url(/common/images/main/pc_ico_pop_close.png) 0 0 no-repeat;background-size:100%}
+.main_popup .layer_con .btn ul{height:50px}
+.main_popup .layer_con .btn ul li button{font-size:16px;line-height:50px}

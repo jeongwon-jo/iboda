@@ -1,0 +1,57 @@
+.class_info_img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 160px auto;
+}
+.class_info_img img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+.register_bottom{
+    position: fixed;
+    width: 90%;
+    height: auto;
+    padding: 14px 5% 10px 5%;
+    background-color: #F7E36A;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.register_inner{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+.register_inner p:first-child{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0 6px 0;
+}
+.register_inner p:nth-child(2){
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0 14px 0;
+    text-align: end;
+}
+.register_btn{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0C2149;
+    border-radius: 20px;
+}
+.register_btn a{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}

@@ -1,0 +1,96 @@
+.child_add_title{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px #CACACA solid;
+    margin: 0 auto;
+}
+.child_no_padding{
+    padding: 11px 0 0 0;
+}
+.child_add_img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.child_add_title p{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.child_add_title .display_flex a{
+    width: 100%;
+    text-align: center;
+}
+.child_add_title .display_flex a p{
+    width: max-content;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    border-bottom: 2px #fff solid;
+}
+.child_add_title .display_flex a p.title_on{
+    color: #0C2149;
+    border-color: #0C2149;
+}
+
+.input_box_whole{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 10px auto;
+}
+.input_box_whole p{
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.input_box_row{
+    width: 100%;
+    height: auto;
+}
+.input_box_row button{
+    min-width: 80px;
+    width: 80px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0C2149;
+    margin: 0 0 0 10px;
+    border-radius: 20px;
+}
+
+.member_txt_whole{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    margin: 0 auto 20px auto;
+}
+.member_txt_whole p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+    text-align: center;
+    word-break: keep-all;
+}
+.member_txt_whole p span{
+    color: #EB5757;
+}
+
+#member_out_btn{
+    width: 160px;
+    height: 40px;
+    border: 1px #101010 solid;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #EB5757;
+    background-color: #fff;
+}

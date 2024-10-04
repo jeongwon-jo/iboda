@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.child_add_title{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px #CACACA solid;
+    margin: 0 auto;
+}
+.child_no_padding{
+    padding: 11px 0 0 0;
+}
+.child_add_img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.child_add_title p{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.child_add_title .display_flex a{
+    width: 100%;
+    text-align: center;
+}
+.child_add_title .display_flex a p{
+    width: max-content;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    border-bottom: 2px #fff solid;
+}
+.child_add_title .display_flex a p.title_on{
+    color: #0C2149;
+    border-color: #0C2149;
+}
+
+.faq_input_box{
+    width: 100%;
+    max-width: 238px;
+    height: 38px;
+    border: 1px #CACACA solid;
+    border-radius: 0;
+    margin: 20px auto;
+}
+.faq_input_box input{
+    width: 100%;
+    height: 100%;
+    margin: 0 10px;
+}
+.faq_input_box button{
+    min-width: 40px;
+    width: 40px;
+    height: 100%;
+    margin: 0;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.faq_category_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+    overflow-x: auto;
+}
+.faq_category_whole::-webkit-scrollbar{
+    display: none;
+}
+.faq_category_whole button{
+    min-width: fit-content;
+    width: min-content;
+    padding: 3px 16px 3px 9px;
+    border: 1px #CACACA solid;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 5px 0 0;
+}
+.faq_category_whole button:last-child{
+    margin: 0;
+}
+button .faq_cate_img{
+    width: 16px;
+    height: 16px;
+    background: url('/common/images/parents/icon/check_img_gr.svg') no-repeat;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+button.faq_btn_clicked{
+    background-color: #0C2149;
+    color: #fff;
+    border-color: #0C2149;
+}
+button.faq_btn_clicked .faq_cate_img{
+    background: url('/common/images/parents/icon/check_img_wh.svg') no-repeat;
+}
+
+.faq_cate_section{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+.faq_quest_row{
+    width: 100%;
+    height: auto;
+}
+.faq_quest_title{
+    width: 100%;
+    height: auto;
+    padding: 12px 0 11px 0;
+    border-bottom: 1px #CACACA solid;
+}
+.faq_quest_row p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.faq_quest_title p{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.faq_quest_title p:first-child{
+    min-width: 79px;
+    text-align: center;
+    color: #0C2149;
+    font-weight: bold;
+}
+.faq_quest_answer{
+    width: calc(100% - 24px);
+    height: auto;
+    padding: 12px;
+    background-color: #F5F5F5;
+    display: none;
+}
+.faq_quest_answer .display_flex p:first-child{
+    width: 16px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin: 3px 32px 0 19px;
+}
+.faq_quest_answer .display_flex{
+    margin: 0 0 10px 0;
+}
+.faq_quest_answer .display_flex:nth-child(2){
+    margin: 0 0 4px 0;
+}
+.faq_quest_answer .display_flex:last-child{
+    margin: 0 0 0 67px;
+}
+.faq_quest_answer .display_flex:last-child p{
+    min-width: max-content;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0;
+}
+.faq_quest_answer .display_flex:last-child p:first-child{
+    min-width: max-content;
+    margin: 0 7px 0 0;
+}
+
+.quest_btn_icon{
+    position: fixed;
+    width: 54px;
+    height: 54px;
+    background-color: #0C2149;
+    border-radius: 20px 20px 0 20px;
+    bottom: 50px;
+    right: 5%;
+}
+.quest_btn_icon a{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+.quest_btn_icon img{
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    margin: 7px 13px 0 13px;
+}
+.quest_btn_icon p{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin: -5px auto 0 auto;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.main_section{
+    position: fixed;
+    width: 100vw;
+    max-width: none;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #F5DA56;
+    margin: 0 auto;
+}
+.main_section img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: contain;
+}
+.main_section img.splash_icon{
+    width: 200px;
+    height: 320px;
+    top: 140px;
+}
+.main_section img.logo_icon{
+    width: 62px;
+    height: auto;
+    bottom: 40px;
+}

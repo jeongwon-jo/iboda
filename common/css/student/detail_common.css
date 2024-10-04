@@ -1,0 +1,6 @@
+.student_header_flex{
+    display: none!important;
+}
+.student_header_flex#student_detail{
+    display: flex!important;
+}

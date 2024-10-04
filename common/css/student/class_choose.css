@@ -1,0 +1,119 @@
+p.class_choose_title{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #999999;
+    padding: 10px 0;
+}
+.class_choose_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 126px auto;
+}
+.portfolio_inner .class_choose_whole{
+    margin-bottom: 0;
+}
+.class_choose_row{
+    width: calc(50% - 8px);
+    height: auto;
+    margin: 0 16px 20px 0;
+}
+.class_choose_whole .class_choose_row:nth-child(2n){
+    margin-right: 0;
+}
+.class_choose_label{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 43.3333vw;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.class_choose_label *{
+    cursor: pointer;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"] + span{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('/common/images/student/icon/port_chk_uncheck.svg') no-repeat;
+    top: 6px;
+    left: 6px;
+}
+input[type="radio"]:checked + span{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('/common/images/student/icon/port_chk_checked.svg') no-repeat;
+    top: 6px;
+    left: 6px;
+}
+input[type="radio"] + span + img{
+    position: absolute;
+    width: 20.5556vw;
+    height: 20.5556vw;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.class_choose_row p{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.class_choose_row .display_flex p:first-child{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 3px;
+}
+.class_next_btn{
+    position: fixed;
+    width: 100%;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px 0 26px 0;
+}
+.class_next_btn button{
+    display: block;
+    width: 220px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #0C2149;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 800px){
+    .class_choose_row{
+        width: 222px;
+    }
+    .class_choose_whole .class_choose_row:nth-child(2n){
+        margin-right: 16px;
+    }
+    .class_choose_whole .class_choose_row:nth-child(3n){
+        margin-right: 0;
+    }
+    .class_choose_label{
+        height: 222px;
+    }
+    input[type="radio"] + span + img{
+        width: 106px;
+        height: 106px;
+    }
+}

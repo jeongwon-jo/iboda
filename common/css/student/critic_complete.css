@@ -1,0 +1,86 @@
+.main_section{
+    height: calc(100vh - 48px);
+    margin-bottom: 0;
+}
+.critic_complete{
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 64px);
+    background-color: #EFF2F7;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    margin: 0 auto;
+    padding: 16px 0 0 0;
+}
+.critic_box{
+    width: 100%;
+    height: calc(100vh - 64px);
+    background-color: #fff;
+}
+.critic_inner{
+    width: 90%;
+    min-width: 328px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 136px;
+}
+.critic_inner img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    margin: 0 auto 20px auto;
+}
+.critic_inner p:nth-child(2){
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #050505;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+.critic_inner p:nth-child(3){
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #050505;
+    text-align: center;
+}
+
+.critic_btn_flex{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    bottom: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.critic_btn_flex a{
+    width: 100%;
+    max-width: 148px;
+    height: auto;
+    margin: 0 8px 0 0;
+}
+.critic_btn_flex a:last-child{
+    margin-right: 0;
+}
+.critic_btn_flex a button{
+    width: 100%;
+    max-width: 148px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+}
+button.critic_btn_home{
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    color: #414141;
+}
+button.critic_btn_register{
+    background-color: #0C2149;
+    color: #FFFFFF;
+}

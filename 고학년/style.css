@@ -1,0 +1,672 @@
+@charset "UTF-8";
+@import url(../_css/variables.css);
+
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.elem_high_result {
+  width: 1003px;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 55px;
+  background: url(/common/images/elem_low/body_bg.png) no-repeat center center / cover;
+}
+
+/* 상단 그래프 영역 */
+.graph_content .graph_item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.graph_content h3.sub_tit {
+  text-align: center;
+  color: var(--report_blue_dark);
+  font-size: 20px;
+  font-family: 'yg-jalnan';
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+
+.graph_content:not(:first-child) {
+  margin-top: 24px;
+}
+
+.graph_content .graph_item:last-child {
+  margin-bottom: 0;
+}
+
+.graph_content .graph_item .tit {
+  font: var(--body_bold);
+  color: var(--report_bg);
+  position: relative;
+  padding-left: 24px;
+  flex-basis: 101px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.graph_content .graph_item.green .tit {
+  flex-basis: 132px;
+}
+
+.graph_content .graph_item .tit:before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--report_red);
+  border: 1px solid var(--report_bg);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.graph_content .graph_item.green .tit::before {
+  background-color: #fff;
+}
+
+.graph_content .graph_item.green .tit.active::before {
+  background-color: var(--report_green);
+}
+
+.graph_content .graph_item.blue .tit::before {
+  background-color: #fff;
+}
+
+.graph_content .graph_item.blue .tit.active::before {
+  background-color: var(--report_blue);
+}
+
+.graph_content .graph_item .bar-graph {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-basis: calc(100% - 104px);
+  flex-shrink: 0;
+}
+
+.graph_content .graph_item.green .bar-graph {
+  flex-basis: calc(100% - 140px);
+}
+
+.graph_item .bar-graph .graph {
+  display: inline-block;
+  width: 100%;
+  height: 32px;
+  border-radius: 20px;
+  border: 2px solid var(--report_bg);
+  background-color: #fff;
+}
+
+.graph_item .bar-graph .graph.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.graph_item .bar-graph .graph.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.graph_item .bar-graph .graph .graph-content {
+  height: 100%;
+  background-color: var(--report_red);
+  position: relative;
+}
+
+.graph_item .bar-graph .graph .graph-content.left {
+  border-radius: 20px 0 0 20px;
+}
+
+.graph_item .bar-graph .graph .graph-content.right {
+  border-radius: 0 20px 20px 0;
+}
+
+.graph_item .bar-graph .graph .graph-content.red {
+  background-color: var(--report_red);
+}
+
+.graph_item .bar-graph .graph .graph-content.green {
+  background-color: var(--report_green_secondary);
+}
+
+.graph_item .bar-graph .graph .graph-content.active_green {
+  background-color: var(--report_green);
+}
+
+.graph_item .bar-graph .graph .graph-content.blue {
+  background-color: var(--report_blue_secondary);
+}
+
+.graph_item .bar-graph .graph .graph-content.active_blue {
+  background-color: var(--report_blue);
+}
+
+.graph_item .bar-graph .graph .graph-content:after {
+  content: attr(data-score);
+  display: inline-block;
+  width: 47px;
+  height: 45px;
+  position: absolute;
+  right: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: 'yg-jalnan';
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  border-radius: 8px;
+}
+
+.graph_item .bar-graph .graph .graph-content.green:after,
+.graph_item .bar-graph .graph .graph-content.active_green:after {
+  background-color: var(--report_green_dark);
+}
+
+.graph_item .bar-graph .graph .graph-content.blue:after,
+.graph_item .bar-graph .graph .graph-content.active_blue:after {
+  background-color: var(--report_blue_dark);
+}
+
+.graph_item .bar-graph .graph .graph-content.right:after {
+  left: -4px;
+}
+
+.graph_item .bar-graph .bar_title {
+  flex-basis: 96px;
+  flex-shrink: 0;
+  font: var(--content_bold);
+  text-align: center;
+  color: var(--gray03);
+}
+
+.graph_item.green .bar-graph .bar_title {
+  flex-basis: 67px;
+}
+.graph_item .bar-graph .bar_title span {
+  display: block;
+}
+
+.graph_item .bar-graph .bar_title.active {
+  color: var(--report_red);
+}
+
+.graph_item.green .bar-graph .bar_title {
+  color: var(--report_green_dark);
+}
+
+.graph_item.blue .bar-graph .bar_title {
+  color: var(--report_blue_dark);
+}
+
+/* 최상단 결과 영역 */
+.section_result_title .result_header {
+  background-color: var(--report_bg);
+  height: 252px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  padding: 0 60px;
+}
+
+.section_result_title .color_thum {
+  width: 230px;
+  flex-basis: 230px;
+  height: 245px;
+  flex-shrink: 0;
+  margin: 0 0;
+  position: relative;
+  transform: translateY(50px);
+}
+
+.section_result_title .color_thum span {
+  font: var(--content_bold);
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  position: absolute;
+  right: -11px;
+  top: -3px;
+  transform: rotate(-18deg);
+}
+
+.section_result_title .color_thum .thum_character {
+  border: 4px solid var(--report_bg);
+  width: 207px;
+  height: 207px;
+}
+
+.section_result_title .color_thum .thum_character img {
+  width: 100%;
+  height: 100%;
+}
+
+.section_result_title .header_content>span {
+  font: var(--content_bold);
+  color: var(--report_bg);
+  font-size: 16px;
+  background-color: var(--report_yellow);
+  padding: 4px 32px;
+  border-radius: 20px;
+}
+
+.section_result_title .header_content h2 {
+  margin-top: 22px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'yg-jalnan';
+  color: #fff;
+}
+
+.section_result_title .header_content h2 b {
+  font-family: 'yg-jalnan';
+  font-size: 32px;
+}
+
+.section_result_title .header_content h2 span {
+  color: var(--report_yellow);
+  font-size: 32px;
+}
+
+.section_result_title .result_body {
+  padding: 50px 74px;
+  padding-bottom: 47px;
+  /* background-color: #DFC4B1; */
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23492F19FF' stroke-width='11' stroke-dasharray='18%2c 30' stroke-dashoffset='6' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+.section_result_title .result_body .result_body_area1 {
+  padding-top: 98px;
+  height: 426px;
+  background: url(/common/images/elem_high/result_title_head01.png) no-repeat center center / contain;
+  text-align: center;
+}
+
+.result_body_area1 .result_content:not(:last-child) {
+  margin-bottom: 29px;
+}
+
+.result_body_area1 .result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  text-align: center;
+}
+
+.result_body_area1 .result .result_alpha {
+  display: flex;
+  flex-direction: column;
+  width: 82px;
+  height: 79px;
+  border-radius: 8px;
+  background-color: var(--report_bg);
+  justify-content: center;
+  align-items: center;
+  row-gap: 4px;
+}
+
+.result_body_area1 .result .result_alpha h2 {
+  color: var(--report_yellow);
+  font-family: 'yg-jalnan';
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.result_body_area1 .result .result_alpha span {
+  font: var(--body_bold);
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.result_body_area1 .result_content h3 {
+  margin-top: 12px;
+  font-family: 'yg-jalnan';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  color: var(--report_bg);
+}
+
+.section_result_title .result_body .result_body_area2 {
+  height: 620px;
+  margin-top: 12px;
+  position: relative;
+  background: url(/common/images/elem_high/result_title_head02.png) no-repeat center center / contain;
+}
+
+.result_body_area2 .result_type {
+  position: absolute;
+  width: 356px;
+}
+
+.result_body_area2 .result_type.type1 {
+  top: 109px;
+  left: 35px;
+}
+
+.result_body_area2 .result_type.type2 {
+  top: 130px;
+  right: 35px;
+}
+
+.result_body_area2 .result_type.type3 {
+  bottom: 104px;
+  left: 35px;
+}
+
+.result_body_area2 .result_type.type4 {
+  bottom: 104px;
+  right: 35px;
+}
+
+.result_body_area2 .result_type .result_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.result_body_area2 .result_type.type1 .graph_summary {
+  margin-top: 12px;
+}
+
+.result_body_area2 .graph_title {
+  font-size: 20px;
+  line-height: 34px;
+  font-family: 'yg-jalnan';
+  font-weight: 700;
+  color: var(--report_blue_dark);
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.result_body_area2 .graph_content .graph_item {
+  justify-content: center;
+}
+
+.result_body_area2 .graph_item .bar-graph .graph {
+  border-radius: 8px;
+  height: 41px;
+}
+
+.result_body_area2 .graph_item .bar-graph .graph .graph-content {
+  border-radius: 5px;
+}
+
+.result_body_area2 .graph_item .bar-graph .graph .graph-content:after {
+  width: 60px;
+  height: 57px;
+  line-height: 57px;
+}
+
+.result_body_area2 .graph_summary {
+  font-size: 20px;
+  line-height: 34px;
+  font-family: 'yg-jalnan';
+  font-weight: 700;
+  color: var(--report_bg);
+  text-align: center;
+  margin-top: 27px;
+}
+
+.body_content {
+  background: url(/common/images/elem_high/body_contentImg.png) no-repeat;
+  background-position: center right;
+  background-size: 100% 100%;
+  padding: 30px;
+  margin: 37px;
+  padding-bottom: 98px;
+  min-height: 1338px;
+}
+
+
+/* 미적감수성 & 시각인지 & 정서행동 */
+.body_content .body_header {
+  width: 100%;
+  height: 70px;
+  padding: 0 56px;
+}
+
+.body_content .body_header__inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: url(/common/images/elem_high/body_content_header.png) no-repeat center center / contain;
+}
+
+.body_content .body_header__inner h2 {
+  font-size: 24px;
+  font-family: 'yg-jalnan';
+  color: var(--report_bg);
+  margin-top: 10px;
+  line-height: 59px;
+}
+
+.body_content.sec3 {
+  margin-top: 84px;
+}
+
+.body_content .body_box {
+  padding: 0 56px;
+}
+
+.body_content .body_graph {
+  margin: 0 12px;
+  margin-top: 32px;
+  border-radius: 4px;
+  border: 4px solid var(--report_bg);
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 32px 29px;
+}
+
+.body_content .body_graph.blue {
+  padding: 12px 29px;
+}
+.body_content .body_graph .graph_content.bdb {
+  padding-bottom: 24px;
+  border-bottom: 1px dashed var(--report_bg);
+}
+
+.body_content .body_result {
+  margin: 0 12px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 2px dashed var(--report_bg);
+  padding: 24px 40px;
+}
+
+.body_content.sec2 .body_result {
+  padding: 12px 40px;
+}
+
+.body_content.sec2 .graph_content:not(:first-child) {
+  margin-top: 12px;
+}
+
+.body_content .body_result img {
+  margin-right: 8px;
+}
+
+.body_content .body_result h5 {
+  font: var(--content_bold);
+  color: var(--gray01);
+}
+
+.body_content .body_result .result p {
+  width: 255px;
+  height: 27px;
+  background-color: var(--report_bg_bright);
+  border-radius: 10px;
+  font: var(--content_bold);
+  text-align: center;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.body_content .body_result .result p.red {
+  color: var(--report_red);
+}
+
+.body_content .body_result .result p.green {
+  color: var(--report_green_dark);
+  width: 132px;
+}
+
+.body_content .body_result .result p.blue {
+  color: var(--report_blue_dark);
+  width: 132px;
+}
+
+.body_content .body_result .result p:last-child {
+  margin-bottom: 0px;
+}
+
+.body_header.mt50 {
+  margin-top: 50px;
+}
+
+/* 색체성향 */
+.body_colored {
+  border: 4px solid var(--report_bg);
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-top: 32px;
+  padding: 32px 28px;
+}
+
+.body_colored .colored {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.body_colored .colored .thum {
+  flex-basis: 140px;
+  flex-shrink: 0;
+  width: 140px;
+  height: 105px;
+}
+
+.body_colored .colored .thum img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.body_colored .colored .desc h3 {
+  font: var(--content_bold);
+  color: var(--gray01);
+}
+
+.body_colored .colored .desc p {
+  font: var(--content_regular);
+  color: var(--gray01);
+  margin-top: 8px;
+}
+
+/* 하단 지도 & 텍스트 */
+.section_result_text {
+  margin-top: 20px;
+}
+
+.section_reulst_map {
+  margin-top: 13px;
+}
+
+.section_reulst_map .map_img {
+  width: 720px;
+}
+
+.section_reulst_map .map_img .map_point.point1 {
+  top: 93px;
+  left: 47px;
+}
+
+.section_reulst_map .map_img .map_point.point2 {
+  bottom: 118px;
+  left: 28px;
+}
+
+.section_reulst_map .map_img .map_point.point3 {
+  bottom: 49px;
+  right: 143px;
+}
+
+.section_reulst_map .map_img .map_point.point4 {
+  bottom: 178px;
+  right: 84px;
+}
+
+.section_reulst_map .map_img .map_point.point5 {
+  bottom: 232px;
+  right: 300px;
+}
+
+.section_reulst_map .map_img .map_point.point6 {
+  top: 26px;
+  right: 57px;
+}
+
+.result_text_summary {
+  width: 786px;
+  margin-right: 34px;
+}
+
+.result_summary_notice:after {
+  top: -173px;
+  right: 38px;
+}
+
+.result_summary_notice .bubble {
+  width: 594px;
+  margin-left: 64px;
+  background-color: #fff;
+}
+
+.result_summary_notice .bubble:after {
+  background: url(/common/images/elem_high/bubble_right.png) no-repeat center center / contain;
+}
+
+.text_summary_list {
+  padding: 0;
+}
+
+.text_summary_list .text_summary_item .text_alpha {
+  width: 82px;
+  flex-basis: 82px;
+}
+/* #### 프린트 설정 #### */
+@media print {
+  .elem_high_result {
+    background: none;
+  }
+
+  .body_content.sec2 .body_header.mt50 {
+    margin-top: 20px;
+  }
+
+  .body_content.sec3 {
+    margin-top: 0;
+  }
+}

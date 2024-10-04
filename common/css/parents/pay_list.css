@@ -1,0 +1,78 @@
+.child_add_title{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px #CACACA solid;
+    margin: 0 auto;
+}
+.child_no_padding{
+    padding: 11px 0 0 0;
+}
+.child_add_img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.child_add_title p{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.child_add_title .display_flex a{
+    width: 100%;
+    text-align: center;
+}
+.child_add_title .display_flex a p{
+    width: max-content;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    border-bottom: 2px #fff solid;
+}
+.child_add_title .display_flex a p.title_on{
+    color: #0C2149;
+    border-color: #0C2149;
+}
+
+.pay_delivery_whole{
+    width: 100%;
+    height: auto;
+}
+.pay_delivery_row{
+    padding: 11px 20px 11px 12px;
+    border-radius: 10px;
+    margin: 10px auto 0 auto;
+}
+.pay_delivery_whole .pay_delivery_row:first-child{
+    margin-top: 20px;
+}
+.pay_delivery_row p.pay_delivery_num{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+}
+.pay_delivery_row p.pay_delivery_name{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+.pay_delivery_row .display_flex{
+    width: 100%;
+    height: auto;
+}
+.pay_delivery_row .display_flex p{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin: 0 0 0 2px;
+}
+.pay_delivery_row .display_flex p:last-child{
+    color: #0C2149;
+    margin: 0;
+}

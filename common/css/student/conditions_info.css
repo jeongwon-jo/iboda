@@ -1,0 +1,129 @@
+.main {
+    width: calc(100% - 32px);
+    margin: 40px auto 0 auto;
+}
+h1 {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 auto 10px auto;
+}
+.main div h2 {
+    width: calc(100% - 32px);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFE150;
+    background-color: #0C2149;
+    padding: 8px 16px;
+    margin: 0 0 32px 0;
+}
+.h1_p {
+    font-size: 13px;
+    margin-top: 6px;
+}
+.main div p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #191919;
+    margin-top: 10px;
+}
+.main div p span {
+    font-weight: 600;
+}
+.box {
+    margin-top: 10px;
+}
+.box>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 13px;
+}
+.box_title {
+    background-color: #FFE150;
+    font-weight: 500;
+}
+.box>div p:nth-child(1) {
+    width: 40%;
+    height: 50px;
+    font-weight: 500;
+    border-bottom: 1px solid #0C2149;
+    border-right: 1px solid #0C2149;
+}
+.box>div p:nth-child(2) {
+    width: 60%;
+    height: 50px;
+    border-bottom: 1px solid #0C2149;
+}
+.box_inner p:nth-child(2) {
+    color: rgb(197, 197, 197);
+}
+.common_inner{
+    margin-bottom: 30px;
+}
+.main ul{
+    width: calc(100% - 10px);
+    margin: 0 0 0 auto;
+}
+.main ul li{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #191919;
+    margin-top: 5px;
+}
+.main ul li ul{
+    width: calc(100% - 10px);
+    margin: 0 0 0 auto;
+}
+
+table{
+    width: 100%;
+    height: auto;
+    table-layout: fixed;
+    border-spacing: 0;
+    margin: 5px auto;
+}
+table tr td{
+    width: 100%;
+    height: auto;
+    border: 1px solid #efefef;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #0C2149;
+    text-align: center;
+}
+table thead{
+    background-color: #FFE150;
+    border: 1px solid #FFE150;
+}
+.main div p a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.popup_box_inner .main{
+    width: 100%;
+    margin-top: 0!important;
+}
+
+.popup_box_inner .main{
+    width: 100%;
+}
+.popup_box_inner .main div h2{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,134 @@
+@media (max-width: 359px){
+    .memberout_warning_txt{
+        min-width: auto!important;
+    }
+}
+
+.profile_title{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    margin: 0 auto 21px auto;
+    border-bottom: 1px solid #CACACA;
+}
+.profile_title .display_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.profile_title img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.profile_title p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+}
+
+.profile_row_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.input_box_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+/*타이틀*/
+p.input_title_txt{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0 auto 10px auto;
+}
+.input_flex{
+    width: 100%;
+    height: auto;
+}
+.input_flex button.confirm_btn{
+    min-width: 80px;
+    width: 80px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0C2149;
+    border-radius: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16);
+    margin: 0 0 0 10px;
+}
+
+p.confirm_txt{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: start;
+    margin: 5px 0 0 0;
+    display: none;
+}
+p.confirm_txt#confirm_nk_txt{
+    display: block;
+    color: #999999;
+}
+p.confirm_txt.confirm_txt_ok{
+    color: #0C2149;
+}
+p.confirm_txt.confirm_txt_no{
+    color: #EB5757;
+}
+
+.member_out_img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    background-size: contain;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.memberout_warning_txt{
+    position: absolute;
+    min-width: 328px;
+    width: 90%;
+    height: auto;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.memberout_warning_txt p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+    padding: 12px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.memberout_warning_txt p span{
+    color: #EB5757;
+}
+
+.member_out_btn{
+    display: block;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #EB5757;
+    border: 1px solid #101010;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 30px auto 0 auto;
+}

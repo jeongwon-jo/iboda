@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+.faq_clicked{
+    background-color: #0C2149;
+    border-color: #0C2149;
+}
+.quest_title{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #CACACA;
+}
+.quest_title .display_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.quest_title img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.quest_title p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+}
+
+.quest_nav_list{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+.quest_nav_list .display_flex{
+    width: 100%;
+    height: 39px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CACACA;
+}
+.quest_nav{
+    display: block;
+    width: 100%;
+    max-width: 164px;
+    height: 39px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.quest_nav p{
+    width: max-content;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.quest_nav.quest_on{
+    cursor: default;
+}
+.quest_nav.quest_on p{
+    height: 31px;
+    color: #0C2149;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #0C2149;
+    cursor: default;
+}
+
+.quest_section{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+}
+.quest_box_whole{
+    width: calc(100% - 2px);
+    max-width: 238px;
+    height: 38px;
+    border: 1px solid #CACACA;
+    margin: 0 auto 20px auto;
+}
+.quest_box_whole .quest_search_input{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0 10px;
+}
+.quest_search_btn{
+    min-width: 38px;
+    width: 38px;
+    height: 38px;
+    background-color: transparent;
+    padding: 7px;
+}
+.quest_search_btn:disabled{
+    background-color: transparent!important;
+}
+.quest_search_btn .quest_img{
+    width: 24px;
+    height: 24px;
+    background: url('/common/images/student/icon/search_bu.svg') no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+.quest_search_btn:disabled .quest_img{
+    width: 24px;
+    height: 24px;
+    background: url('/common/images/student/icon/search_gr.svg') no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.quest_nav_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+.quest_nav_whole .display_flex{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.quest_nav_whole .display_flex::-webkit-scrollbar{
+    display: none;
+}
+.quest_nav_whole .display_flex a{
+    min-width: max-content;
+    width: max-content;
+    height: auto;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+.quest_nav_whole .display_flex a *{
+    cursor: pointer;
+}
+.quest_nav_whole .display_flex a:last-child{
+    margin-right: 0;
+}
+.quest_nav_whole .display_flex a p{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #999999;
+    border: 1px solid #999999;
+    padding: 3px 14px 3px 10px;
+}
+.quest_nav_whole .display_flex a p span{
+    display: block;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+    background: url('/common/images/student/icon/check_img_gr.svg') no-repeat;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.quest_nav_whole .display_flex a.nav_txt_on{
+    cursor: default;
+}
+.quest_nav_whole .display_flex a.nav_txt_on *{
+    cursor: default;
+}
+.quest_nav_whole .display_flex a.nav_txt_on p{
+    color: #FFFFFF;
+    background-color: #0C2149;
+    border-color: #0C2149;
+}
+.quest_nav_whole .display_flex a.nav_txt_on p span{
+    background: url('/common/images/student/icon/check_img_wh.svg') no-repeat;
+}
+
+/*자주하는질문*/
+.quest_list_row_whole{
+    width: 100%;
+    height: auto;
+}
+.quest_list_row{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #CACACA;
+    cursor: pointer;
+}
+.quest_list_row *{
+    cursor: pointer;
+}
+.quest_list_row_whole .quest_list_row:last-child{
+    border-bottom: 1px solid #CACACA;
+}
+.quest_list_title{
+    padding: 8px 12px 7px 12px;
+}
+.quest_list_title p:first-child{
+    min-width: max-content;
+    width: max-content;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0 10px 0 0;
+    font-family: 'Comfortaa', 'cursive';
+}
+.quest_list_title p:nth-child(2){
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #101010;
+}
+.quest_list_answer{
+    width: calc(100% - 24px);
+    height: auto;
+    padding: 12px;
+    border-top: 1px solid #CACACA;
+    background-color: #F5F5F5;
+    display: none;
+}
+.quest_list_answer p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #101010;
+}
+
+/*나의문의*/
+#quest_section2 .quest_list_row_whole2 .quest_list_row2:first-child{
+    border-top: none;
+}
+.quest_list_row_whole2{
+    width: 100%;
+    height: auto;
+}
+.quest_list_row2{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.quest_list_row2 *{
+    cursor: pointer;
+}
+.quest_list_title2{
+    border-bottom: 1px solid #CACACA;
+}
+.quest_list_title2 p{
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #101010;
+    padding: 13px 0 12px 0;
+}
+.quest_list_title2 p:first-child{
+    min-width: 79px;
+    width: 79px;
+    text-align: center;
+}
+.quest_list_title2 p:last-child{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 16px;
+}
+.quest_list_answer2{
+    width: calc(100% - 24px);
+    height: auto;
+    padding: 12px;
+    background-color: #F5F5F5;
+    display: none;
+}
+.quest_list_answer2 p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #101010;
+}
+.quest_list_answer2 .display_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+.quest_list_answer2 .display_flex:last-child{
+    margin: 0 auto;
+}
+.quest_list_answer2 .display_flex p:first-child{
+    min-width: 63px;
+    width: 63px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0;
+    font-family: 'Comfortaa', 'cursive';
+    text-align: center;
+}
+p.quest_date_txt{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 0 0 63px;
+}
+p.quest_date_txt span{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 0 0 5px;
+}
+
+.quest_go_write{
+    position: fixed;
+    display: block;
+    width: 54px;
+    height: 54px;
+    border-radius: 20px 20px 0 20px;
+    overflow: hidden;
+    right: 26px;
+    bottom: 50px;
+    cursor: pointer;
+    background-color: #0C2149;
+}
+.quest_go_write *{
+    cursor: pointer;
+}
+.quest_go_write img{
+    display: block;
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    margin: 7px auto 0 auto;
+}
+.quest_go_write p{
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}

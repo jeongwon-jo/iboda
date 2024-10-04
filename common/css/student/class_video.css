@@ -1,0 +1,148 @@
+.class_top{
+    width: 100%;
+    height: auto;
+    padding: 10px 0 12px 0;
+    border-bottom: 1px solid #CACACA;
+    margin: 0 auto 12px auto;
+}
+
+.class_top .w_display_f {
+    width: 100%;
+    height: auto;
+}
+
+.class_top .w_display_f p:first-child {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+    margin-bottom: 10px;
+}
+
+.class_top .w_display_f p:last-child {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #0C2149;
+}
+
+.class_top .w_display_f p:last-child em {
+    margin-right: 10px;
+}
+
+.video_area {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 40px auto;
+}
+
+.video_area iframe {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+}
+
+.process {
+    border-top: 2px solid #290f0f;
+    width: 100%;
+    height: auto;
+}
+
+.tbl_list {
+    width: 100%;
+    height: auto;
+    table-layout: fixed;
+    margin: 0 auto 40px auto;
+}
+
+.tbl_list tr th {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #101010;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.tbl_list tr td {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #101010;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+/*데이터 없을 때*/
+b {
+    display: none;
+}
+
+.no_data_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.no_data_box img{
+    width: 76px;
+}
+.go_home_a{
+    position: absolute;
+    display: block;
+    min-width: 220px;
+    width: 220px;
+    max-width: 220px;
+    height: 40px;
+    background-color: #0A2454;
+    margin: 0 auto;
+    border-radius: 20px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.go_home_a p{
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+    .tbl_list tr th {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .tbl_list tr td {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+
+@media (max-height: 399px) {
+    .no_data_box{
+        position: unset;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+    .go_home_a{
+        position: unset;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,92 @@
+.no_data_box{
+    width: 240px;
+}
+p.schedule_title{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 0 10px 0;
+    padding-top: 10px;
+}
+.day_schedule_row_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.day_schedule_row{
+    width: calc(100% - 26px);
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 12px 14px 14px 12px;
+    border-radius: 10px;
+    margin: 0 auto 10px auto;
+    cursor: pointer;
+}
+.day_schedule_row *{
+    cursor: pointer;
+}
+.day_schedule_row_whole .day_schedule_row:last-child{
+    margin-bottom: 0;
+}
+.day_schedule_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 13px auto;
+}
+.day_schedule_flex p.class_name{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.class_status p{
+    min-width: 52px;
+    width: 52px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.class_status p.class_yet{
+    border-color: #426950;
+    color: #426950;
+}
+.class_status p.class_com{
+    border-color: #4D8F9F;
+    color: #4D8F9F;
+}
+.class_status p.class_abs{
+    border-color: #EB5757;
+    color: #EB5757;
+}
+p.subject_name{
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0 auto 10px auto;
+}
+p.subject_date{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+p.subject_date span{
+    margin: 0 0 0 10px;
+    color: #999999;
+}
+
+.schedule_on{
+    width: 5px;
+    height: 5px;
+    background-color: #EB5757;
+    border-radius: 5px;
+}

@@ -1,0 +1,154 @@
+.pay_title{
+    width: 100%;
+    height: auto;
+    padding: 12px 0 8px 0;
+    border-bottom: 1px solid #CACACA;
+    margin: 0 auto 14px auto;
+}
+.color_class{
+    background-color: #0C2149;
+    border-color: #0C2149;
+}
+.pay_title img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0;
+}
+.pay_title p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+    margin: 1px 0 0 5px;
+}
+
+.pay_nav_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+.pay_nav_whole .display_flex{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.pay_nav_whole .display_flex::-webkit-scrollbar{
+    display: none;
+}
+.pay_nav_whole .display_flex a{
+    min-width: max-content;
+    width: max-content;
+    height: auto;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+.pay_nav_whole .display_flex a *{
+    cursor: pointer;
+}
+.pay_nav_whole .display_flex a:last-child{
+    margin-right: 0;
+}
+.pay_nav_whole .display_flex a p{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #999999;
+    border: 1px solid #999999;
+    padding: 3px 14px 3px 10px;
+}
+.pay_nav_whole .display_flex a p span{
+    display: block;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+    background: url('/common/images/student/icon/check_img_gr.svg') no-repeat;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.pay_nav_whole .display_flex a.nav_txt_on{
+    cursor: default;
+}
+.pay_nav_whole .display_flex a.nav_txt_on *{
+    cursor: default;
+}
+.pay_nav_whole .display_flex a.nav_txt_on p{
+    color: #FFFFFF;
+    background-color: #0C2149;
+    border-color: #0C2149;
+}
+.pay_nav_whole .display_flex a.nav_txt_on p span{
+    background: url('/common/images/student/icon/check_img_wh.svg') no-repeat;
+}
+
+.pay_section{
+    width: 100%;
+    height: auto;
+    margin: 22px auto 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pay_row_whole{
+    width: calc(100% - 23px);
+    height: auto;
+}
+.pay_row{
+    width: calc(100% - 23px);
+    height: auto;
+    padding: 15px 0 12px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #CACACA;
+    overflow: hidden;
+}
+.pay_section .pay_row:last-child{
+    border-bottom: none;
+}
+.pay_row .pay_flex{
+    width: 100%;
+    height: auto;
+}
+.pay_row .pay_flex:first-child{
+    margin: 0 0 8px 0;
+}
+.pay_row .pay_flex:first-child p:first-child{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pay_row .pay_flex:first-child p:last-child{
+    min-width: max-content;
+    width: max-content;
+    height: auto;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: bold;
+}
+.pay_row .pay_flex:last-child p:first-child{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #101010;
+}
+.pay_row .pay_flex:last-child p:last-child{
+    min-width: max-content;
+    width: max-content;
+    height: auto;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: bold;
+}
+span.pay_gray{
+    color: #999999;
+}
+span.pay_blue{
+    color: #33589F;
+}

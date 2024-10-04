@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+:root {
+  /* #### Color #### */
+  /* Color: Brand */
+  --color-primary: #0A2355;
+  --color-sec: #FFDF1A;
+  --color-primary-dark: #000D26;
+  --color-sec-dark: #D4BC29;
+
+  /* Color: Gray */
+  --gray01: #0D0D0D;
+  --gray02: #595959;
+  --gray03: #999999;
+  --gray04: #CECECE;
+  --gray05: #E1E1E1;
+  --gray06: #F5F5F5;
+
+  /* Color: Dim */
+  --dim01: rgb(12, 33, 73, 0.2);
+  --dim02: rgb(255, 223, 26, 0.3);
+  --dim03: rgb(255, 255, 255, 0.5);
+
+  /* Color: System */
+  --error: #FA4F62;
+
+  /* Color: Colored */
+  --color-blue: #CEECFF;
+  --color-orange: #E66646;
+  --color-purple: #4C34A3;
+  --color-green: #426950;
+  --color-light_green: #BCDCB8;
+  --color-sand: #F9E4CD;
+  --color-turquoise: #4D8F9F;
+  --color-pink: #ED9D9A;
+  --color-lightgreen: #BCDCB8;
+
+  /* Color: Chart */
+  --chart-p01: #F7A7A5;
+  --chart-p02: #F37B70;
+  --chart-p03: #F5918A;
+  --chart-p04: #F37B70;
+
+  /* Color : Report */
+  --report_red: #EA5541;
+  --report_red_secondary: #EA5541;
+  --report_orange: #F3A64B;
+  --report_yellow: #FBDC70;
+  --report_green: #8AC454;
+  --report_green_secondary: #BDD06E;
+  --report_green_dark: #399469;
+  --report_blue: #00AAE1;
+  --report_blue_secondary: #9CBAD5;
+  --report_blue_dark: #2666B2;
+  --report_bg: #492F19;
+  --report_bg_secondary: #895427;
+  --report_bg_bright: #ECEAE8;
+  --report_bg_modal: #C3B28A;
+
+  /* #### Font #### */
+  /* Text : Title */
+  --title-m_large: normal 700 16px/120% 'NanumSquareRound';
+  --title-m_large_bold: normal 800 16px/120% 'NanumSquareRound';
+  --title-large: normal 700 42px/120% 'NanumSquareRound';
+  --title-large_bold: normal 800 42px/120% 'NanumSquareRound';
+
+  /* Text : Semi Title */
+  --semi-title_regular: normal 700 36px/120% 'NanumSquareRound';
+  --semi-title_bold: normal 800 36px/120% 'NanumSquareRound';
+  --semi-title-m_regular: normal 700 15px/120% 'NanumSquareRound';
+  --semi-title-m_bold: normal 800 15px/120% 'NanumSquareRound';
+
+  /* Text: Body Title */
+  --body-title-m_regular: normal 400 14px/150% 'NanumSquareRound';
+  --body-title-m_bold: normal 800 14px/150% 'NanumSquareRound';
+  --body-title-regular: normal 400 24px/150% 'NanumSquareRound';
+  --body-title-bold: normal 900 24px/150% 'NanumSquareRound';
+
+  /* Text: Body Semi Title */
+  --body-semi-title_regular: normal 400 20px/150% 'NanumSquareRound';
+  --body-semi-title_bold: normal 800 20px/150% 'NanumSquareRound';
+  --body-semi-title-m_regular: normal 400 13px/150% 'NanumSquareRound';
+  --body-semi-title-m_bold: normal 800 13px/150% 'NanumSquareRound';
+
+  /* Text: Body */
+  --body_regular: normal 400 18px/170% 'NanumSquareRound';
+  --body_bold: normal 800 18px/170% 'NanumSquareRound';
+  --body-m_regular: normal 400 12px/170% 'NanumSquareRound';
+  --body-m_bold: normal 800 12px/170% 'NanumSquareRound';
+  
+  /* Text: Content */
+  --content_regular: normal 400 16px/170% 'NanumSquareRound';
+  --content_bold: normal 800 16px/170% 'NanumSquareRound';
+  --content-m_regular: normal 400 10px/170% 'NanumSquareRound';
+  --content-m_bold: normal 800 10px/170% 'NanumSquareRound';
+}

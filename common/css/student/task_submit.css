@@ -1,0 +1,336 @@
+@media (max-width: 359px){
+    .subject_info_box p:nth-child(1),
+    .subject_info_box p:nth-child(2){
+        font-size: 13px!important;
+    }
+}
+
+.task_submit_top{
+    position: relative;
+    width: 100vw;
+    background-color: #F7E36A;
+    padding: 12px 0 8px 0;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.task_submit_inner{
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+.task_submit_top p{
+    font-weight: bold;
+    margin: 0;
+}
+.task_submit_top p:nth-child(1){
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.task_submit_top p:nth-child(2){
+    font-size: 12px;
+    line-height: 14px;
+    color: #5D5D5D;
+}
+.task_week_box{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding: 10px 0;
+    background-color: #2A2B35;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.task_week_box p:nth-child(1){
+    width: max-content;
+    height: auto;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #FFDF1A;
+    border: 1px solid #FFDF1A;
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin: 0 auto 8px 0;
+}
+.task_week_box p:nth-child(2){
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0;
+}
+.task_subject_whole{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+.subject_info_box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 15px auto;
+}
+.subject_info_box p{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #272727;
+}
+.subject_info_box p:nth-child(1){
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background-color: #0C2149;
+    margin-right: 6px;
+}
+.task_subject_gr{
+    width: calc(100% - 20px);
+    height: auto;
+    padding: 16px 10px;
+    background-color: #F4F4F4;
+    border-radius: 6px;
+}
+p.subject_name{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 auto 12px auto;
+}
+p.subject_info_txt{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+.subject_info{
+    width: 100%;
+    height: auto;
+    margin: 22px auto 26px auto;
+}
+.subject_info p{
+    margin: 0 0 2px 0;
+}
+.subject_info p:last-child{
+    margin: 0;
+}
+.task_subject_row_whole{
+    width: 100%;
+    height: auto;
+}
+.task_subject_row{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 22px auto;
+}
+.task_subject_row_whole .task_subject_row:last-child{
+    margin-bottom: 0;
+}
+.task_subject_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+.task_subject_flex img{
+    width: 18px;
+    height: auto;
+    background-size: contain;
+    margin: 0 6px 0 0;
+}
+.task_subject_flex p{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.task_download_btn{
+    display: block;
+    width: 160px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #09125A;
+}
+/*제출부분*/
+.task_subject_submit_whole{
+    width: 100%;
+    height: auto;
+    margin: 24px auto 0 auto;
+}
+.task_subject_submit_top{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 24px auto;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #F4F4F4;
+}
+.task_subject_submit_top p{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #030303;
+}
+.task_subject_submit_top .display_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 12px auto;
+}
+.task_subject_submit_top .display_flex p{
+    font-weight: bold;
+    margin: 0 0 0 8px;
+}
+.task_subject_submit_top .display_flex p.task_quest{
+    width: 26px;
+    height: 26px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    border-radius: 13px;
+    background-color: #FFDF1A;
+}
+/*제출div*/
+.task_subject_submit_row_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.task_subject_submit_row{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #D1D1D1;
+}
+.task_subject_submit_row .reset_img{
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    cursor: pointer;
+}
+.task_subject_submit_row_whole .task_subject_submit_row:last-child{
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+}
+.task_subject_submit_row p{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #030303;
+}
+.task_submit_box{
+    width: 100%;
+    height: auto;
+    margin: 16px auto 0 auto;
+}
+.task_submit_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+    overflow: hidden;
+}
+#task_added_files .task_submit_flex:last-child{
+    margin-bottom: 0;
+}
+.task_submit_flex .display_flex{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+p.task_file_name{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #D1D1D1;
+    border: 1px solid #D1D1D1;
+    padding: 11px 9px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.task_subject_submit_row p.task_file_upload{
+    min-width: 76px;
+    width: 76px;
+    max-width: 76px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 12px 12px 12px 13px;
+    background-color: #333333;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.file_plus,
+.file_minus{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #707070;
+    background-color: transparent;
+    cursor: pointer;
+}
+.file_plus:hover,
+.file_minus:hover{
+    background-color: #E8F0FF;
+}
+.file_plus img,
+.file_minus img{
+    display: block;
+    width: 24px;
+    height: auto;
+    background-size: contain;
+    margin: auto;
+    cursor: pointer;
+}
+.task_info_txtarea{
+    width: calc(100% - 20px);
+    height: auto;
+    padding: 12px 10px;
+    border: 1px solid #D1D1D1;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #030303;
+    margin: 12px auto 10px auto;
+}
+.task_info_txtarea::placeholder{
+    color: #D1D1D1;
+}
+.task_write_ok{
+    display: block;
+    min-width: 76px;
+    width: 76px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #333333;
+    margin: 0 0 0 auto;
+}
+
+.task_submit_btn{
+    display: block;
+    min-width: 160px;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0C2149;
+    margin: 30px auto 0 auto;
+    border-radius: 20px;
+}

@@ -1,0 +1,133 @@
+@media (max-width: 359px){
+    .aside_list_row{
+        min-width: auto!important;
+    }
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.aside_list_whole{
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 50;
+}
+.aside_list_row{
+    display: none;
+}
+.aside_list_row,
+.aside_detail_row{
+    width: 90%;
+    min-width: 328px;
+    height: 24px;
+    padding: 12px 5%;
+}
+.hamberger_icon,
+.back_icon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0;
+    cursor: pointer;
+}
+.hamberger_icon img,
+.back_icon img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.aside_select_box{
+    width: 107px;
+    height: 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+.aside_select_box select{
+    width: 100%!important;
+    height: 100%;
+    margin: 0!important;
+}
+
+
+/* 하단 탭 */
+.tab_nav_whole{
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.16);
+    display: none;
+}
+.tab_nav_flex{
+    width: 100%;
+    height: 100%;
+}
+.tab_nav_flex a{
+    width: 100%;
+    height: auto;
+}
+.tab_nav_icon1,
+.tab_nav_icon2,
+.tab_nav_icon3,
+.tab_nav_icon4{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 auto 2px auto;
+}
+.tab_nav_icon1{
+    background: url('/common/images/parents/icon/tab_off1.svg');
+}
+.tab_on .tab_nav_icon1{
+    background: url('/common/images/parents/icon/tab_on1.svg');
+}
+.tab_nav_icon2{
+    background: url('/common/images/parents/icon/tab_off2.svg');
+}
+.tab_on .tab_nav_icon2{
+    background: url('/common/images/parents/icon/tab_on2.svg');
+}
+.tab_nav_icon3{
+    background: url('/common/images/parents/icon/tab_off3.svg');
+}
+.tab_on .tab_nav_icon3{
+    background: url('/common/images/parents/icon/tab_on3.svg');
+}
+.tab_nav_icon4{
+    background: url('/common/images/parents/icon/tab_off4.svg');
+}
+.tab_on .tab_nav_icon4{
+    background: url('/common/images/parents/icon/tab_on4.svg');
+}
+.tab_box p{
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #CACACA;
+    text-align: center;
+}
+.tab_box.tab_on p{
+    color: #0C2149;
+}
+.aside_detail_row .display_flex p.enterway_txt{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 0 0 10px;
+}

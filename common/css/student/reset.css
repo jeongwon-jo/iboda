@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* reset */
+body{
+    -ms-overflow-style: none;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display:none;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+}
+
+*{ 
+    margin:0;  
+	padding:0;
+    border: 0;
+    cursor: default;
+    list-style: none;
+    font-family: 'NanumSquareRound';
+    font-style: normal;
+    text-decoration:none;
+    outline:0;
+}
+
+ol,ul, li, em, a, h2, hr, p, h3, h1, h4, h5, input, select, textarea{ 
+    list-style: none;
+    font-family: 'NanumSquareRound';
+    font-style: normal;
+    text-decoration:none;
+    outline:0;
+}
+
+img{ 
+    border:0;
+}

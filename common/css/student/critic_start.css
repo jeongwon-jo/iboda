@@ -1,0 +1,102 @@
+.main_section{
+    position: relative;
+    min-height: calc(100vh - 48px);
+    margin-bottom: 0;
+}
+.critic_title{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #CACACA;
+    padding: 12px 0 10px 0;
+}
+.critic_title p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+}
+.critic_start{
+    width: 100%;
+    height: auto;
+    margin: 60px auto 0 auto;
+}
+.critic_start p{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.critic_start p span{
+    font-weight: 400;
+    margin: 0 2px 0 0;
+}
+/*테이블*/
+.critic_table{
+    width: 100%;
+    height: auto;
+    margin: 46px auto 30px auto;
+    border-spacing: unset;
+    table-layout: fixed;
+}
+tr td{
+    border-bottom: 1px solid #DBDBDB;
+}
+tbody tr:first-child td{
+    border-top: 1px solid #DBDBDB;
+}
+td{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+tr td:first-child{
+    min-width: 100px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #F4F4F4;
+}
+tr td:last-child{
+    width: 100%;
+    padding-left: 12px;
+}
+p.critic_info{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+p.critic_info span{
+    font-weight: bold;
+    color: #0C2149;
+}
+
+/*버튼*/
+.critic_btn_flex{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 20px;
+}
+.critic_btn_flex a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.critic_btn{
+    display: block;
+    width: 100%;
+    max-width: 328px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #0C2149;
+    border: 1px solid #0C2149;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 0 auto;
+}

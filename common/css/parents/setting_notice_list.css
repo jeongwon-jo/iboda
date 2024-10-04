@@ -1,0 +1,41 @@
+.setting_list_flex{
+    border-bottom: 1px #CACACA solid;
+    padding-bottom: 10px;
+    margin: 10px auto;
+}
+.setting_list_flex img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+.setting_list_flex p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}
+
+.setting_list_whole{
+    width: 100%;
+    height: auto;
+}
+.setting_list_row{
+    padding: 12px 0 10px 0;
+    border-bottom: 1px #CACACA solid;
+}
+.setting_list_row p:first-child{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 0 10px 0;
+}
+.setting_list_row p:last-child{
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0;
+}

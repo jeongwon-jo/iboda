@@ -1,0 +1,18 @@
+.aside_list_row{
+    display: block!important;
+}
+.aside_detail_row{
+    display: none;
+}
+
+.tab_nav_whole{
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.16);
+    display: block!important;
+}

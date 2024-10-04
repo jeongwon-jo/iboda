@@ -1,0 +1,111 @@
+.pay_delivery_whole{
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0 auto;
+}
+.pay_delivery_box{
+    padding: 11px 12px 16px 12px;
+    border-radius: 10px;
+}
+.pay_delivery_box p.pay_delivery_num{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+}
+.pay_delivery_box p.pay_delivery_name{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+.pay_delivery_box .display_flex{
+    width: 100%;
+    height: auto;
+}
+.pay_delivery_box .display_flex p{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin: 0 0 0 2px;
+}
+.pay_delivery_box .display_flex p:last-child{
+    color: #0C2149;
+    margin: 0;
+}
+.pay_delivery_flex{
+    border-bottom: 1px #CACACA solid;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.product_name_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 12px auto;
+    border-bottom: 1px #CACACA solid;
+    padding-bottom: 10px;
+}
+p.product_name_title{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin: 0 auto 10px auto;
+}
+.product_name_flex_whole{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px #CACACA solid;
+}
+.product_name_whole .product_name_flex{
+    width: auto;
+    padding: 10px;
+}
+.product_name_flex_whole .product_name_flex:nth-child(2n){
+    background-color: #F5F5F5;
+}
+.display_flex.product_name_flex p{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #101010;
+}
+.display_flex.product_name_flex p:last-child{
+    color: #101010;
+}
+.product_name_flex_whole .display_flex.product_name_flex p{
+    font-weight: 400;
+    color: #101010;
+}
+.product_date_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 0 16px 0;
+}
+.display_flex.product_date_flex p{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.display_flex.product_date_flex p:first-child{
+    margin-right: 16px;
+}
+.display_flex.product_date_flex p:last-child{
+    color: #101010;
+}
+
+.pay_iboda_logo{
+    position: relative;
+    width: 36px;
+    height: 18px;
+    margin: 0 auto;
+}
+.pay_iboda_logo img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

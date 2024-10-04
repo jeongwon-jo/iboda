@@ -1,0 +1,38 @@
+﻿@charset "utf-8";
+
+/*포인트컬러*/
+.black{color: #000 !important;}
+.point0{color: #0A2355 !important;}
+.secondary{color: #FFDF1A !important;}
+.primary_dark{color: #000D26 !important;}
+.secondary_dark{color: #D4BC29 !important;}
+.gray01{color: #0D0D0D !important;}
+.gray02{color: #595959 !important;}
+.gray03{color: #999999 !important;}
+.gray04{color: #CECECE !important;}
+.gray05{color: #E1E1E1 !important;}
+.gray06{color: #F5F5F5 !important;}
+.white{color: #fff !important;}
+.error{color: #FA4F62 !important;}
+
+.bg_point0{background-color: #0A2355 !important;}
+
+/* 공통 폰트
+   fontweight이 다르거나 스타일이 들어가야할때는 중복클래스를 사용
+   ex) <div class="body_title_text fontweight800 txt_underline"></div> */
+.large_title_text{font-size: 16px; line-height: 20px; letter-spacing: -0.01em; font-weight: 700;}
+.semi_title_text{font-size: 15px; line-height: 19px; letter-spacing: -0.01em; font-weight: 700;}
+.body_title_text{font-size: 14px; line-height: 20px; letter-spacing: -0.01em; font-weight: 400;}
+.body_semi_title_text{font-size: 13px; line-height: 19px; letter-spacing: -0.01em; font-weight: 400;}
+.body_text{font-size: 12px; line-height: 20px; letter-spacing: -0.01em; font-weight: 400;}
+.content_text{font-size: 10px; line-height: 16px; letter-spacing: -0.01em; font-weight: 400;}
+
+
+@media all and (min-width: 768px){
+    .large_title_text{font-size: 42px; line-height: 50px; letter-spacing: 0;}
+    .semi_title_text{font-size: 36px; line-height: 44px; letter-spacing: 0;}
+    .body_title_text{font-size: 24px; line-height: 36px; letter-spacing: 0;}
+    .body_semi_title_text{font-size: 20px; line-height: 30px; letter-spacing: 0;}
+    .body_text{font-size: 18px; line-height: 30px; letter-spacing: 0;}
+    .content_text{font-size: 16px; line-height: 26px; letter-spacing: 0;}
+}

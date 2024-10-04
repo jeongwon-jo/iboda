@@ -1,0 +1,18 @@
+p.find_title{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #101010;
+    margin: 11px auto;
+}
+.input_flex button.confirm_btn{
+    min-width: 80px;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 0 0 10px;
+}

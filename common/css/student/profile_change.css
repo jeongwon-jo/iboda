@@ -1,0 +1,343 @@
+.profile_title{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    margin: 0 auto 21px auto;
+    border-bottom: 1px solid #CACACA;
+}
+.profile_title .display_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.profile_title img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.profile_title p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+}
+.profile_row_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.profile_row{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+p.profile_title_txt{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0 auto 10px auto;
+}
+.profile_row_whole .profile_row:first-child p.profile_title_txt{
+    margin-bottom: 11px;
+}
+.profile_flex{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.profile_img_box{
+    position: relative;
+    min-width: 98px;
+    width: 98px;
+    height: 98px;
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.profile_img_box img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.student_info_txt{
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 20px;
+}
+.student_info_txt p{
+    font-weight: bold;
+    color: #101010;
+    margin: 0;
+}
+.student_info_txt p:nth-child(1){
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0 0 10px 0;
+}
+.student_info_txt p:nth-child(2){
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.main_section{
+    margin-bottom: 49px;
+}
+
+.signup_box{
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0 auto;
+}
+/*최상단*/
+.signup_title{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+.signup_title img{
+    display: block;
+    min-width: 36px;
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    margin: 0 10px 0 0;
+}
+.signup_title p{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #0C2149;
+}
+.input_box_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+/*타이틀*/
+p.input_title_txt{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0 auto 10px auto;
+}
+.input_flex{
+    width: 100%;
+    height: auto;
+}
+.input_flex button.confirm_btn{
+    min-width: 80px;
+    width: 80px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0C2149;
+    border-radius: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16);
+    margin: 0 0 0 10px;
+}
+.input_flex.input_flex_other{
+    margin-top: 10px;
+}
+.input_flex.input_flex_other button.confirm_btn{
+    min-width: 110px;
+    width: 110px;
+    margin: 0 10px 0 0;
+}
+.input_flex_other2{
+    display: none;
+}
+.input_box.input_between{
+    margin: 10px auto;
+}
+p.confirm_txt{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: start;
+    margin: 5px 0 0 0;
+    display: none;
+}
+p.confirm_txt#confirm_nk_txt{
+    display: block;
+    color: #999999;
+}
+p.confirm_txt.confirm_txt_ok{
+    color: #0C2149;
+}
+p.confirm_txt.confirm_txt_no{
+    color: #EB5757;
+}
+
+/*약관동의*/
+.input_conditions p{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+}
+.conditions_border{
+    width: calc(100% - 24px);
+    height: auto;
+    padding: 16px 12px;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    margin: 10px auto 0 auto;
+}
+p.txt_rd{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #EB5757;
+    margin: 0 0 6px 0;
+}
+p.txt_gy{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #999999;
+    margin: 11px 0 7px 0;
+}
+label{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+label p{
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"] + p + span{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background: url('/common/images/parents/icon/chk_unactive.svg') no-repeat;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + p + span{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background: url('/common/images/parents/icon/chk_active.svg') no-repeat;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
+input[class="j_chk_box"] + span{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background: url('/common/images/parents/icon/chk_unactive.svg') no-repeat;
+    margin: 0 6px 0 0;
+    cursor: pointer;
+}
+input[class="j_chk_box"]:checked + span{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background: url('/common/images/parents/icon/chk_active.svg') no-repeat;
+    margin: 0 6px 0 0;
+    cursor: pointer;
+}
+.join_chk_row_box{
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
+.join_chk_row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.join_chk_row p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.join_chk_row a p{
+    text-decoration: underline;
+    color: #0C2149;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+#__daum__layer_1{
+    width: 100%!important;
+}
+
+.profile_plus_flex{
+    width: 100%;
+    height: auto;
+    margin: 40px auto 20px auto;
+}
+.profile_plus_flex p:first-child{
+    min-width: max-content;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #0C2149;
+    margin: 0 10px 0 0;
+}
+.profile_plus_flex p:last-child{
+    width: 100%;
+    height: 1px;
+    background-color: #0C2149;
+    border-radius: 2px 0 0 2px;
+}
+.txtarea_box{
+    width: calc(100% - 34px);
+    height: 74px;
+    padding: 13px 16px;
+    border: 1px solid #CACACA;
+    border-radius: 20px;
+}
+.txtarea_box textarea{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #101010;
+}
+
+a.member_out_txt p{
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #BB0000;
+    text-decoration: underline;
+    text-align: start;
+    margin: 0 auto 30px auto;
+}
+
+/*버튼*/
+.signup_btn_complete{
+    display: block;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0C2149;
+    border-radius: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16);
+    margin: 0 auto;
+}

@@ -1,0 +1,140 @@
+.profile_row_whole{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-bottom: 1px #CACACA solid;
+    padding-bottom: 10px;
+}
+.profile_row_whole img{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin: 0 5px 0 0;
+}
+.profile_row_whole p{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.profile_change_section{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.profile_change_row_whole{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.profile_change_row{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+.profile_change_row p{
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0 0 10px 0;
+}
+.profile_change_box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+label[for="profile_change_file"]{
+    position: relative;
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    border: 1px #D4D4D4 solid;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+    overflow: hidden;
+}
+label[for="profile_change_file"] img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.profile_txt{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.profile_txt p:first-child{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.profile_txt p:last-child{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+.input_flex{
+    width: 100%;
+    height: auto;
+}
+.input_flex button{
+    min-width: 80px;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0C2149;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 0 10px;
+}
+.input_flex_whole .input_flex{
+    margin: 10px auto 0 auto;
+}
+button#confirm_phn{
+    min-width: 110px;
+    width: 110px;
+}
+.profile_change_row_clicked{
+    display: none;
+}
+
+p.clicked_txt_show{
+    font-size: 12px;
+    line-height: 14px;
+    margin: 5px 0 0 0;
+    display: none;
+}
+
+
+.btn_flex{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+.btn_flex button{
+    width: 160px;
+    height: 40px;
+    background: #0C2149;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+p.memberout_txt{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #bb0000;
+    margin: 20px 0 0 0;
+    text-decoration: underline;
+}

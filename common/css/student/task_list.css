@@ -1,0 +1,118 @@
+p.task_title{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #101010;
+    margin: 0 auto 12px auto;
+    padding-top: 10px;
+}
+/*search 박스*/
+.task_search_box{
+    width: calc(100% - 12px);
+    height: 38px;
+    border: 1px solid #DDDDDD;
+    margin: 0 auto 14px auto;
+    padding: 0 0 0 10px;
+}
+.task_search_box .display_flex{
+    width: 100%;
+    height: 100%;
+}
+.task_search_icon{
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.task_search_icon *{
+    cursor: pointer;
+}
+.task_search_icon .task_search_img{
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background: url('/common/images/student/icon/search_bu.svg') no-repeat;
+    margin: 0 auto;
+}
+.task_search_icon:disabled{
+    background-color: transparent!important;
+    cursor: default;
+}
+.task_search_icon:disabled *{
+    cursor: default;
+}
+.task_search_icon:disabled .task_search_img{
+    background: url('/common/images/student/icon/search_gr.svg') no-repeat;
+}
+.task_search_box input#task_search_input{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #101010;
+}
+/*select 박스*/
+.task_select{
+    width: 164px;
+    height: 32px;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0 auto 14px auto;
+}
+
+/*과제*/
+.task_row_whole{
+    width: 100%;
+    height: auto;
+}
+.task_row{
+    width: calc(100% - 25px);
+    height: auto;
+    padding: 14px 13px 12px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.task_row *{
+    cursor: pointer;
+}
+.task_row p.task_class_name,
+.task_row p.task_task_name{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #101010;
+}
+.task_row p.task_class_name{
+    margin: 0 auto 6px auto;
+}
+.task_flex{
+    width: 100%;
+    height: auto;
+    margin: 14px auto 0 auto;
+}
+.task_flex .display_flex:nth-child(1) p{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+.task_flex .display_flex:nth-child(1) p:first-child{
+    margin: 0 5px 0 0;
+}
+.task_flex .display_flex:nth-child(2) p{
+    width: 61px;
+    height: 22px;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 11px;
+    text-align: center;
+}
+.task_flex .display_flex:nth-child(2) p.submit_no{
+    background-color: #EB5757;
+}
+.task_flex .display_flex:nth-child(2) p.submit_ok{
+    background-color: #0C2149;
+}
